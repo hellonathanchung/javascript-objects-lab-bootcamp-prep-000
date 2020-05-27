@@ -16,7 +16,7 @@ function deleteFromObjectByKey(object, key) {
   return newObj
 }
 
-function destructivelyDeleteFromObjectByKey(pokemon, key) {
-  delete pokemon[key]
+function destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
   return object
 }
